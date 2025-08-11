@@ -1,5 +1,4 @@
 <template>
-    <div>
   <section id="team">
     <div class="container mx-auto px-5 xl:px-2 my-10">
         <div class="text">
@@ -11,13 +10,15 @@
             </div>
         </div>    
     </div>
+
+
   </section>
-    </div>
 </template>
 
 <script setup>
 import serData from '@/components/serData';
 import card from '@/components/card.vue';
+
 </script>
 
 <style lang="scss" scoped>
