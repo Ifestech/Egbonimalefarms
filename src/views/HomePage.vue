@@ -9,7 +9,7 @@
 
         <!-- Text second on mobile, first on desktop -->
         <div class="w-full flex items-center flex-col mt-9 md:items-start text-center md:text-left gap-5 order-2 md:order-1">
-            <h1 class="font-bold text-4xl text-yellow-600">Bamidele Egbonimale Agro <br /> and Farms Limited</h1>
+            <h1 class="font-bold text-4xl text-yellow-200">Bamidele Egbonimale Agro <br /> and Farms Limited</h1>
             <p class="font-bold text-2xl text-yellow-500">Harvesting Quality. Nourishing Lives.</p>
             <button class="bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition duration-300">
             <a href="#products">Explore Our Products</a>
@@ -173,7 +173,9 @@
     
     <!-- About Section -->
     <div>
+     <router-link to="/">
       <img src="../assets/image/FARMLOGO.png " alt="" width="100">
+     </router-link> 
       <h3 class="text-xl font-bold mb-4">Bamidele Egbonimale Agro Farms</h3>
       <p class="text-sm leading-relaxed">
         Dedicated to sustainable farming, producing the best palm oil, cassava, and crops while supporting our community.
@@ -185,7 +187,7 @@
       <h3 class="text-xl font-bold mb-4">Contact Us</h3>
       <ul class="space-y-2 text-sm">
       <li><a href="https://wa.me/2349017245986?text=Hello Egbonimale Farms%20I%27m%20interested%20in%20your%20farm%20products"
-       target="_blank" class="text-red-500 font-extrabold hover:underline">Chat with us on WhatsApp</a></li>
+       target="_blank" class="text-red-500 font-extrabold hover:underline">Click to Chat with us on WhatsApp</a></li>
         <li>📍 11, Benin-Agbor Road Igbogiri Edo State.</li>
         <li>📞 +234 9017245986</li>
         <li>✉️ philipegbonimale@gmail.com"</li>
