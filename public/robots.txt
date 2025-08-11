@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://egbonimalefarms.netlify.app/sitemap.xml
